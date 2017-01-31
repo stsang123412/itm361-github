@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 	<head>
+		<meta charset="utf-8"/>
 		<title>Stevetest_Resume</title>
 	</head>
 	<body>
-		<header id="header">
 		  <h1> Steve's Resume </h1>
-			<p id="intro paragraph">
+			<p> id="introParagraph">
 			123 E 45th St. <br/>
 			Chicago, IL 111111<br/>
 			Phone: 123-456-7890<br/>
@@ -28,3 +28,5 @@
 			</ul>
 	</body>
 </html>
+	
+		
