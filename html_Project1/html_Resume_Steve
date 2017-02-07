@@ -5,12 +5,12 @@
 	</head>
 	<body>
 		  <h1> Steve's Resume </h1>
-			<p> 
-			123 E 45th St. <br/>
-			Chicago, IL 111111<br/>
-			Phone: 123-456-7890<br/>
-			myEmail@bmail.com<br/>
-			</p>
+			
+			<p>501 W 24th PL.</p>
+			<p>Chicago, IL 60616</p>
+			<p>Phone: 312-456-7890</p>
+			<p>stsang@hawk.iit.edu</p>
+			
 		  <h3>Education</h3>
 		    <ul>
 			  <li> Kelly High School - High School GED </li> 						
