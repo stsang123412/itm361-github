@@ -1,0 +1,43 @@
+html {
+	background-color: #bce0ff; /*skyblue background*/
+	font-family: "Isidora", cursive, sans-serif;
+	font-size: 95%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;	
+}
+
+
+header, div, nav, section, footer {
+	display: block;
+}
+
+
+body {
+	line-height: 2;
+}
+
+/* header styling */
+#header {
+	text-align: center;
+	color: #9ebdef; /*light blueish color*/
+	font-size: 1.25em;
+}
+
+/* h1 styling */
+h1 {
+	color: #c97a12;	/*orange*/
+	margin-left: 1rem;
+}
+
+/* changes the lists  */
+ol, ul, li {
+	list-style: none;
+	color: #dd0404; /*orange*/
+}
+/* p styling */
+p {
+	color: #15a805;
+}
