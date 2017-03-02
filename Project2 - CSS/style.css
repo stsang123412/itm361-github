@@ -1,5 +1,5 @@
 html {
-	background-color: #bce0ff; /*skyblue background*/
+	background-color: #000000; /*black background*/
 	font-family: "Isidora", cursive, sans-serif;
 	font-size: 95%;
 	font: inherit;
@@ -25,6 +25,19 @@ body {
 	color: #9ebdef; /*light blueish color*/
 	font-size: 1.25em;
 }
+/* p styling */
+p {
+	content: "\f0c9";
+font-family: 'FontAwesome' !important;
+display: block;
+text-align: center !important;
+text-indent: 10px;
+color: #fff !important;
+font-size:1.5em !important;
+height: 4px;
+width: 4x;
+line-height: 40px;}
+}
 
 /* h1 styling */
 h1 {
@@ -37,7 +50,4 @@ ol, ul, li {
 	list-style: none;
 	color: #dd0404; /*orange*/
 }
-/* p styling */
-p {
-	color: #15a805;
-}
+
