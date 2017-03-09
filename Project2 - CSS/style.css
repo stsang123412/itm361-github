@@ -1,53 +1,61 @@
 html {
-	background-color: #000000; /*black background*/
-	font-family: "Isidora", cursive, sans-serif;
-	font-size: 95%;
-	font: inherit;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;	
+	
 }
 
-
-header, div, nav, section, footer {
-	display: block;
-}
-
-
-body {
-	line-height: 2;
-}
-
-/* header styling */
-#header {
+/* main */
+header{
+	background-color: #edd2b8;
+	font-family: "Helvectica", sans-serif;
 	text-align: center;
-	color: #9ebdef; /*light blueish color*/
 	font-size: 1.25em;
+	padding: 0.3em;
 }
-/* p styling */
+
+nav{
+	background-color: #edd2b8;
+	padding: 0.30em;
+	font-family: "Helvectica", sans-serif;
+	word-spacing: 0.5em;
+	color: #163ba0;
+	text-align: center;
+	font-size: 1.75em;
+}
+nav li{
+	display: inline-block;
+}
+
+body{
+  padding-top: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 0.85em;
+  background-color: #e3e9f2;
+}
+h1{
+	font-size:4em;
+	text-align: center;
+}
+h2{
+	font-size:3em;
+	text-align: left;
+}
+.edu{
+  border: 1.5px solid black ;
+  padding: 0.5em;
+  margin: 1.5em;
+}
+.introduction{
+  border: 1.5px solid black ;
+  padding: 0.5em;
+  margin: 1.5em;
+  text-align: center;
+}
+
 p {
-	content: "\f0c9";
-font-family: 'FontAwesome' !important;
-display: block;
-text-align: center !important;
-text-indent: 10px;
-color: #fff !important;
-font-size:1.5em !important;
-height: 4px;
-width: 4x;
-line-height: 40px;}
+  font-size: 1em;
 }
-
-/* h1 styling */
-h1 {
-	color: #c97a12;	/*orange*/
-	margin-left: 1rem;
+footer{
+  background-color: #5fdec3;
+  color: #000000;
+  font-size: 0.75em;
+  text-align: center;
 }
-
-/* changes the lists  */
-ol, ul, li {
-	list-style: none;
-	color: #dd0404; /*orange*/
-}
-
