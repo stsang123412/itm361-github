@@ -9,10 +9,11 @@ header{
 	text-align: center;
 	font-size: 1.25em;
 	padding: 0.3em;
+	background: no-repeat center/cover url("https://puu.sh/uEzsn/fc9ddba4cc.jpg"); /*clean white*/
 }
 
 nav{
-	background-color: #edd2b8;
+	/*background-color: #edd2b8;*/
 	padding: 0.30em;
 	font-family: "Helvectica", sans-serif;
 	word-spacing: 0.5em;
@@ -25,10 +26,11 @@ nav li{
 }
 
 body{
-  padding-top: 0;
   font-family: 'Comic Sans MS', sans-serif;
-  font-size: 0.85em;
-  background-color: #e3e9f2;
+  background: no-repeat center/cover url("http://i.imgur.com/9OJ7EqJ.jpg");
+  width: 60%;
+  margin-left:20%;
+  /*background-color: #e3e9f2;*/
 }
 h1{
 	font-size:4em;
@@ -42,14 +44,24 @@ h2{
   border: 1.5px solid black ;
   padding: 0.5em;
   margin: 1.5em;
+  background-color: #e3e9f2;
 }
 .introduction{
   border: 1.5px solid black ;
   padding: 0.5em;
   margin: 1.5em;
   text-align: center;
+  background-color: #e3e9f2;
 }
-
+.bigbox{
+	padding: 0.5em;
+	border: 2.5px solid gray;
+	background-color: #e3e9f2;
+}
+.contact_information_css{
+	margin: 3em;
+	background-color: #e3e9f2;
+}
 p {
   font-size: 1em;
 }
